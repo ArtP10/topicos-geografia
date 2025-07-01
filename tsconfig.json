@@ -5,6 +5,20 @@
         "outDir":"dist",
         "sourceMap": true,
         "noImplicitAny": true,
+         "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+     "paths": {
+            "controller/*": ["controller/*"], 
+            "routes/*": ["routes/*"],          
+            "services/*": ["services/*"],     
+            "entities/*": ["entities/*"]   
+        },
+    "types":["jest", "node"]
     },
+
     "include": ["src/**/*"]
 }
